@@ -1,7 +1,7 @@
 
 Target Framework: net8.0
 
-Contribution Guide (For Demos):
+New Project Contribution Guide (For Demos):
 - directory structure guidance
     - feature flavor (best practice vs language feature etc.)
     - feature name (records vs structs etc)
@@ -17,7 +17,6 @@ Contribution Guide (For Demos):
 - Link new tests to new project
     - dotnet add tests/<Feature>.tests/<Feature>.Tests.csproj reference <feature-flavor>/<feature-name>/<Feature>.csproj
 - Test build & run for new project
-    - cd <feature-flavor>/<feature-name>
     - dotnet run --project <feature-flavor>/<feature-name> # /<Feature>.csproj
 
 

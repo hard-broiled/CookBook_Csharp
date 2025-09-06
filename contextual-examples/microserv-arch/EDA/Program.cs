@@ -1,5 +1,4 @@
-
-using Cookbook.DotNetUsage.MinimalAPI;
+﻿namespace Cookbook.MicroservArch.EDA;
 
 public static class ConsoleApp
 {
