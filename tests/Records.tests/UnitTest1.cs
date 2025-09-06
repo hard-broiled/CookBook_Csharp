@@ -1,4 +1,4 @@
-using DotNetExamples.LanguageFeatures.Records;
+using Cookbook.LanguageFeatures.Records;
 using Xunit;
 
 namespace Records.Tests;

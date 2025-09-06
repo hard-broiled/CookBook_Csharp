@@ -1,5 +1,4 @@
-
-using Cookbook.DotNetUsage.MinimalAPI;
+﻿using Cookbook.BestPractices.DepInjDemo;
 
 public static class ConsoleApp
     {

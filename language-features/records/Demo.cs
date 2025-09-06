@@ -1,5 +1,5 @@
 
-namespace DotNetExamples.LanguageFeatures.Records
+namespace Cookbook.LanguageFeatures.Records
 {
 
     public record Person(string FirstName, string LastName);

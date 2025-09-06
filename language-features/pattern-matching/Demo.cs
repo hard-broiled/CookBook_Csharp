@@ -1,5 +1,5 @@
 
-namespace DotNetExamples.LanguageFeatures.PatternMatching
+namespace Cookbook.LanguageFeatures.PatternMatching
 {
 
     public abstract record Shape;

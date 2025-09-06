@@ -1,5 +1,5 @@
 
-namespace DotNetExamples.DotNetUsage.MinimalAPI;
+namespace Cookbook.DotNetUsage.MinimalAPI;
 
 
 public static class Demo

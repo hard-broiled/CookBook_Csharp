@@ -1,2 +1,25 @@
 
 - insert covered topics, potential future topics, instructions for contributions to this specific directory
+
+- Message Queues / Event Streams
+    - RabbitMQ
+    - Apache Kafka
+	- Azure Service Bus
+	- AWS SQS/SNS
+	- Google Pub/Sub
+- Datastores
+	- Redis (caching, pub/sub)
+	- MongoDB
+	- PostgreSQL / SQL Server with EF Core
+	- Cosmos DB
+	- Databricks SQL endpoint (basic query from .NET)
+- Search / Analytics
+	- Elasticsearch / OpenSearch
+- Cloud Services
+	- AWS DynamoDB
+	- Azure Table/Blob Storage
+	- GCP Firestore
+- Other Integrations
+	- gRPC (service-to-service communication)
+	- REST API client integration (HttpClient best practices)
+	- GraphQL client integration

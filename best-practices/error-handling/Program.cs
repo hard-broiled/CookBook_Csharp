@@ -1,11 +1,10 @@
-﻿using Cookbook.LanguageFeatures.Records;
+﻿
+namespace ErrHndlDemo;
 
-public static class ConsoleApp
+public static class Program
 {
     public static void Main(string[] args)
     {
         Demo.Run(args);
     }
 }
-
-

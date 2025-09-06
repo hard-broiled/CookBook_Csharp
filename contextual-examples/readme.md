@@ -1,0 +1,27 @@
+
+- insert covered topics, potential future topics, instructions for contributions to this specific directory
+
+- Cloud Platforms
+	- Azure Functions basics (C# isolated worker example)
+	- AWS Lambda with .NET
+	- GCP Cloud Run (example service)
+- Distributed Systems
+	- Implementing an actor model (Orleans / Akka.NET quickstart)
+	- Using MediatR for in-process CQRS
+- Container-Oriented Development
+	- Twelve-Factor App patterns in .NET
+	- Configuration via environment variables & secrets
+	- Health checks & readiness probes
+- Microservices Architecture
+	- Service-to-service communication (HttpClientFactory)
+	- Event-driven architecture example (using integration project’s queue samples)
+- Resilience & Observability
+	- Polly for retries and circuit breakers
+	- OpenTelemetry tracing basics
+	- Structured logging with Serilog
+- Security & Identity
+	- JWT authentication in ASP.NET Core
+	- OAuth2 / OpenID Connect basics (Auth0, Azure AD, etc.)
+- Enterprise Practices
+	- Domain-Driven Design (aggregate + repository pattern example)
+	- Clean Architecture starter template

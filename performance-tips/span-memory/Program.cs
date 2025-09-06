@@ -1,11 +1,8 @@
-﻿using Cookbook.LanguageFeatures.Records;
-
-public static class ConsoleApp
+﻿namespace Cookbook.Performance.SpanMem;
+public static class Program
 {
     public static void Main(string[] args)
     {
         Demo.Run(args);
     }
 }
-
-
