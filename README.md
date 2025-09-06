@@ -39,11 +39,26 @@ High Level Directory Guide:
 │   ├── logging-structured/
 │   └── unit-testing-xunit/
 │
+├── design-patterns/            # Commonly used design patterns
+│   ├── creational/
+│   │   ├── singleton/
+│   │   ├── factory-method/
+│   │   └── abstract-factory/
+│   ├── structural/
+│   │   ├── adapter/
+│   │   ├── facade/
+│   │   └── decorator/
+│   └── behavioral/
+│       ├── observer/
+│       ├── strategy/
+│       └── command/
+│
 ├── contextual-examples/        # Patterns, practices, and platform context where .NET is applied. Shaping apps in real-world settings.
-│   ├── cloud-platforms/
+│   ├── cloud-platforms/            # Azure, AWX, GCP, etc.
 │   ├── distributed-systems/
 │   ├── container-oriented/
-│   ├── microservices-arch/
+│   ├── microservices-arch/         # EDA, (SOA?) etc.
+│   ├── SOA
 │   ├── resil-observ/
 │   ├── secur-ident/
 │   └── enterprise/
@@ -58,11 +73,14 @@ High Level Directory Guide:
 │   └── config-options/
 │
 ├── integration-examples/       # How .NET apps talk to external systems & services. These examples should be self-contained “hello world” integrations with minimal dependencies, showing idiomatic usage.
-│   ├── mssgQ-evntStr/
+│   ├── mssgQ-evntStr/              # RabbitMQ, Kafka etc.
+│   ├── redis                       # separate topic flavor for redis; caching, pub-sub etc.
 │   ├── datastores/
+│   ├── databases/                  # (sql/nosql engines + connections as relevant) relational , non-relational, data-lakes (patterns: Delta Lake) (evolve separation between this and datastores)
+│   ├── bigdata-analytics/          # Spark, Flink etc.
 │   ├── search-analytics/
 │   ├── cloud-services/
-│   └── other/
+│   └── blockchain/
 │
 ├── language-features/          # Modern C# syntax & constructs
 │   ├── records/                # Immutable data types

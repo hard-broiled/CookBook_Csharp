@@ -5,6 +5,14 @@ public static class Program
 {
     public static async Task Main(string[] args)
     {
-        await Demo.RunAsync(args);
+        try
+        {
+            await Demo.RunAsync(args);
+        }
+        catch (Exception ex)
+        {
+            // Log unhandled exceptions
+            Console.Error.WriteLine($"[FATAL] Unhandled exception: {ex}");
+        }
     }
 }
