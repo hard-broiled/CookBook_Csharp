@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "age": 29,
+    "city": "New York",
+    "skills": ["C#", "Spark", "SQL"]
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "age": 35,
+    "city": "San Francisco",
+    "skills": ["Kafka", "Scala", "Flink"]
+  },
+  {
+    "id": 3,
+    "name": "Carlos Ramirez",
+    "age": 41,
+    "city": "Chicago",
+    "skills": ["Python", "Data Engineering"]
+  },
+  {
+    "id": 4,
+    "name": "Diana Lee",
+    "age": 26,
+    "city": "Seattle",
+    "skills": ["Java", "Kubernetes", "Docker"]
+  },
+  {
+    "id": 5,
+    "name": "Ethan Patel",
+    "age": 32,
+    "city": "Austin",
+    "skills": ["Redis", "Azure", "C#"]
+  },
+  {
+    "id": 6,
+    "name": "Fatima Ali",
+    "age": 38,
+    "city": "Boston",
+    "skills": ["Blockchain", "Solidity", "Golang"]
+  },
+  {
+    "id": 7,
+    "name": "George Chang",
+    "age": 45,
+    "city": "Los Angeles",
+    "skills": ["Spark", "Databricks", "SQL"]
+  },
+  {
+    "id": 8,
+    "name": "Hannah Kim",
+    "age": 28,
+    "city": "Denver",
+    "skills": ["Kafka", "Event-Driven Systems"]
+  },
+  {
+    "id": 9,
+    "name": "Ivan Petrov",
+    "age": 34,
+    "city": "Miami",
+    "skills": ["C#", "Redis", "Cloud Services"]
+  },
+  {
+    "id": 10,
+    "name": "Julia Rossi",
+    "age": 30,
+    "city": "Philadelphia",
+    "skills": ["Machine Learning", "Python", "Spark"]
+  }
+]
